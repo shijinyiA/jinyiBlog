@@ -73,52 +73,7 @@ export default defineUserConfig({
         .home .post-preview .post-content {
           display: none;
         }
-
-        /* 设置博客主页的背景图片 */
-        .blog-home {
-          background-image: url(/assets/images/bj.jpg);
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          min-height: 100vh;
-        }
-      `,
-    ],
-    [
-      'script',
-      {},
-      `
-        /* 鼠标特效 */
-        var a_idx = 0;
-        document.addEventListener('DOMContentLoaded', function() {
-          document.body.addEventListener('click', function(e) {
-            var a = new Array("锦衣");
-            var $i = document.createElement('span');
-            $i.textContent = a[a_idx];
-            a_idx = (a_idx + 1) % a.length;
-            var x = e.pageX,
-                y = e.pageY;
-            $i.style.zIndex = 9999999999;
-            $i.style.top = (y - 20) + 'px';
-            $i.style.left = x + 'px';
-            $i.style.position = 'absolute';
-            $i.style.fontWeight = 'bold';
-            $i.style.color = '#ff6651';
-            document.body.appendChild($i);
-            $i.animate({
-              top: (y - 180) + 'px',
-              opacity: 0
-            }, {
-              duration: 1500,
-              easing: 'ease',
-              complete: function() {
-                $i.remove();
-              }
-            });
-          });
-        });
       `,
     ],
   ],
 });
-
