@@ -7,12 +7,12 @@ export default hopeTheme({
 
   author: {
     name: "锦衣",
-    url: "https://jinyi.icu",
+    url: "https://github.com/shijinyiA/jinyiBlog",
   },
 
   iconAssets: "fontawesome-with-brands",
   logo: "/assets/images/tx.jpg",
-  repo: "shijinyiA",
+  repo: "shijinyiA/jinyiBlog",
   docsDir: "src",
 
   // 导航栏

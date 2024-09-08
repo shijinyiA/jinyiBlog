@@ -3,7 +3,7 @@ import { searchProPlugin } from "vuepress-plugin-search-pro";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/jinyiBlog/",
   lang: "zh-CN",
   title: "锦衣",
   description: "锦衣小窝",
@@ -50,17 +50,17 @@ export default defineUserConfig({
           giscusScript.src = 'https://giscus.app/client.js';
           giscusScript.async = true;
           giscusScript.crossOrigin = 'anonymous';
-          giscusScript.setAttribute('data-repo', 'shijinyiA/jinyiBlog'); // 你的 GitHub 仓库名
-          giscusScript.setAttribute('data-repo-id', 'R_kgDOMuaHtw'); // 仓库的唯一标识符
-          giscusScript.setAttribute('data-category', 'General'); // 讨论分类
-          giscusScript.setAttribute('data-category-id', 'DIC_kwDOMuaHt84CiSvf'); // 讨论分类 ID
-          giscusScript.setAttribute('data-mapping', 'pathname'); // 映射方式
-          giscusScript.setAttribute('data-strict', '0'); // 是否启用严格模式
-          giscusScript.setAttribute('data-reactions-enabled', '1'); // 启用反应
-          giscusScript.setAttribute('data-emit-metadata', '0'); // 是否发送元数据
-          giscusScript.setAttribute('data-input-position', 'bottom'); // 评论输入框位置
-          giscusScript.setAttribute('data-theme', 'preferred_color_scheme'); // 主题设置
-          giscusScript.setAttribute('data-lang', 'zh-CN'); // 语言
+          giscusScript.setAttribute('data-repo', 'shijinyiA/jinyiBlog');
+          giscusScript.setAttribute('data-repo-id', 'R_kgDOMuaHtw');
+          giscusScript.setAttribute('data-category', 'General');
+          giscusScript.setAttribute('data-category-id', 'DIC_kwDOMuaHt84CiSvf');
+          giscusScript.setAttribute('data-mapping', 'pathname');
+          giscusScript.setAttribute('data-strict', '0');
+          giscusScript.setAttribute('data-reactions-enabled', '1');
+          giscusScript.setAttribute('data-emit-metadata', '0');
+          giscusScript.setAttribute('data-input-position', 'bottom');
+          giscusScript.setAttribute('data-theme', 'preferred_color_scheme');
+          giscusScript.setAttribute('data-lang', 'zh-CN');
           document.getElementById('giscus-container').appendChild(giscusScript);
         });
       `,
@@ -84,5 +84,41 @@ export default defineUserConfig({
         }
       `,
     ],
+    [
+      'script',
+      {},
+      `
+        /* 鼠标特效 */
+        var a_idx = 0;
+        document.addEventListener('DOMContentLoaded', function() {
+          document.body.addEventListener('click', function(e) {
+            var a = new Array("锦衣");
+            var $i = document.createElement('span');
+            $i.textContent = a[a_idx];
+            a_idx = (a_idx + 1) % a.length;
+            var x = e.pageX,
+                y = e.pageY;
+            $i.style.zIndex = 9999999999;
+            $i.style.top = (y - 20) + 'px';
+            $i.style.left = x + 'px';
+            $i.style.position = 'absolute';
+            $i.style.fontWeight = 'bold';
+            $i.style.color = '#ff6651';
+            document.body.appendChild($i);
+            $i.animate({
+              top: (y - 180) + 'px',
+              opacity: 0
+            }, {
+              duration: 1500,
+              easing: 'ease',
+              complete: function() {
+                $i.remove();
+              }
+            });
+          });
+        });
+      `,
+    ],
   ],
 });
+
