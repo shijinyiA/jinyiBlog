@@ -1,0 +1,13 @@
+.live2d-container {
+  position: fixed; /* 确保它是固定定位 */
+  bottom: 0; /* 调整底部位置 */
+  z-index: 9999; /* 确保在最上层 */
+}
+
+/* .vuepress/styles/index.styl */
+body {
+  background-image: url('/assets/images/bj.jpg'); /* 替换为你的背景图片路径 */
+  background-size: cover; /* 使背景图像覆盖整个背景区域 */
+  background-position: center center; /* 背景图片居中对齐 */
+  background-repeat: no-repeat; /* 禁用背景图片重复 */
+}
