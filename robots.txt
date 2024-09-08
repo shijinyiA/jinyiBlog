@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://jinyi.icu/jinyiBlog/sitemap.xml
