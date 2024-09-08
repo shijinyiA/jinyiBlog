@@ -4,10 +4,11 @@
   z-index: 9999; /* 确保在最上层 */
 }
 
-/* .vuepress/styles/index.styl */
-body {
-  background-image: url('/assets/images/bj.jpg'); /* 替换为你的背景图片路径 */
-  background-size: cover; /* 使背景图像覆盖整个背景区域 */
-  background-position: center center; /* 背景图片居中对齐 */
-  background-repeat: no-repeat; /* 禁用背景图片重复 */
+/* 设置博客主页的背景图片 */
+.blog-home {
+  background-image: url(/assets/images/bj.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }

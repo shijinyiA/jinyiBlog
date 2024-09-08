@@ -73,6 +73,15 @@ export default defineUserConfig({
         .home .post-preview .post-content {
           display: none;
         }
+
+        /* 设置博客主页的背景图片 */
+        .blog-home {
+          background-image: url(/assets/images/bj.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          min-height: 100vh;
+        }
       `,
     ],
   ],
