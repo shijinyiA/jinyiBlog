@@ -9,9 +9,9 @@ tag:
 star: true
 ---
 
-# 利用WSL2安装Miao-Yunzai教程
+## 1.利用WSL2安装Miao-Yunzai教程
 
-## 准备工作
+# 准备工作
 
 一台Windows10/Windows11系统的电脑（PC） (这里注意**虚拟化平台**的开启,需要Windows10/11专业版)
 
