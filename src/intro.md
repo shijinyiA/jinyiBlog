@@ -1,8 +1,8 @@
 ---
 icon: circle-info
 title: 作者介绍
-article: false  # 这会使该页面不作为文章显示
-permalink: /about/  # 修改这里为你想要的路径，比如 /about/
+article: false  
+permalink: /about/  
 ---
 
 ## 作者介绍
@@ -44,7 +44,7 @@ A2：意义的话也没啥，想着作为自己的网络明信片也挺好，有
 
 ## **网站信息：**
 
->备案号：[萌ICP备20240172号](https://icp.gov.moe/?keyword=20240172)，第三方
+>备案号：[萌ICP备20240172号](https://icp.gov.moe/?keyword=20240172)，[萌备](https://icp.gov.moe/)可可爱爱的萌萌备！
 
 >jinyi.icu是基于[vuepress](https://vuepress.vuejs.org/zh/)的[vueess-theme-hope主题](https://theme-hope.vuejs.press/zh/),部署在[Github pages](https://github.com/)上
 
