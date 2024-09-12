@@ -36,17 +36,17 @@ A2：意义的话也没啥，想着作为自己的网络明信片也挺好，有
 ---
 ## **联系方式：**
 
-邮箱：jinyi@jinyi.icu
+1.[QQ号](https://tenapi.cn/v2/qqcard?qq=3022056965)
 
-QQ：3022056965
+2.[邮箱](mailto:jinyi@jinyi.icu)
 
 ---
 
 ## **网站信息：**
 
-＞备案号：[萌ICP备20240172号](https://icp.gov.moe/?keyword=20240172)，第三方
+>备案号：[萌ICP备20240172号](https://icp.gov.moe/?keyword=20240172)，第三方
 
-＞jinyi.icu是基于[vuepress](https://vuepress.vuejs.org/zh/)的[vueess-theme-hope主题](https://theme-hope.vuejs.press/zh/),部署在[Github pages](https://github.com/)上
+>jinyi.icu是基于[vuepress](https://vuepress.vuejs.org/zh/)的[vueess-theme-hope主题](https://theme-hope.vuejs.press/zh/),部署在[Github pages](https://github.com/)上
 
 
 <Giscus />
