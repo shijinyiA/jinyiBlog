@@ -2,6 +2,7 @@
 title: 壁纸
 date: 2024-09-14
 article: false 
+icon: laptop-code
 star: true
 permalink: /bz
 ---
