@@ -2,7 +2,7 @@
 icon: circle-info
 title: 作者介绍
 article: false  
-permalink: /about/  
+permalink: /about
 ---
 
 ## 作者介绍
