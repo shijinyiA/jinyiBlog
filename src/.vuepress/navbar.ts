@@ -7,7 +7,7 @@ export default [
   {
     text: "友情链接",
     icon: "lightbulb",  
-    link: "/links",
+    link: "/link",
   },
   // 可以继续添加更多的导航项目
 ];
