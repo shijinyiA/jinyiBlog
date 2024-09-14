@@ -11,7 +11,8 @@ export default sidebar({
       children: "structure",
     },
 
-    "bz"
+    
+    "bz",
     "about",
   ],
 });
