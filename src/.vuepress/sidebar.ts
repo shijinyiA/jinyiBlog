@@ -10,8 +10,13 @@ export default sidebar({
       prefix: "文章/",
       children: "structure",
     },
+    {
+      text: "壁纸",
+      icon: "laptop-code",
+      prefix: "bz",
+      children: "structure",
+    },
 
-    "bz",
     "about",
   ],
 });
