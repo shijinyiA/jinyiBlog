@@ -9,5 +9,10 @@ export default [
     icon: "lightbulb",  
     link: "/link",
   },
+  {
+    text: "壁纸",
+    icon: "book",  
+    link: "/bz",
+  },
   // 可以继续添加更多的导航项目
 ];

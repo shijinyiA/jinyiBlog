@@ -10,6 +10,8 @@ export default sidebar({
       prefix: "文章/",
       children: "structure",
     },
+
+    "bz",
     "intro",
   ],
 });
