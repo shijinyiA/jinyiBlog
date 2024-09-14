@@ -14,7 +14,6 @@ export default sidebar({
       text: "壁纸",
       icon: "laptop-code",
       prefix: "bz",
-      children: "structure",
     },
 
     "about",
