@@ -3,7 +3,7 @@ title: 壁纸
 date: 2024-09-14
 article: false 
 star: true
-permalink: /bz/
+permalink: /bz
 ---
 
 ### 壁纸会持续收集~
