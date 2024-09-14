@@ -14,5 +14,10 @@ export default [
     icon: "book",  
     link: "/bz",
   },
+  {
+    text: "关于作者",
+    icon: "circle-info",  
+    link: "/about",
+  },
   // 可以继续添加更多的导航项目
 ];

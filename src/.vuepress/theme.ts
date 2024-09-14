@@ -49,7 +49,7 @@ export default hopeTheme({
 
   // 多语言配置
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "在 GitHub 上编辑此页（帮助更改最好啦！！）",
   },
 
   // 启用的插件

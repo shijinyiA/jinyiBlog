@@ -103,6 +103,5 @@ wsl Ubuntu
 afyz
 ```
 
-<div id="giscus-container"></div>
-
+<Comment2 />
 
