@@ -19,5 +19,10 @@ export default [
     icon: "circle-info",  
     link: "/about",
   },
+  {
+    text: "网站状态",
+    icon: "laptop-code",  
+    link: "https://shijinyia-uptime-kuma.hf.space/status/jinyi",
+  },
   // 可以继续添加更多的导航项目
 ];
