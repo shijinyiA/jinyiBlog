@@ -34,13 +34,31 @@ export default defineUserConfig({
     `,
   },
   head: [
+    // 添加 jQuery 脚本
     [
       'script',
       {
-        src: 'https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js',
+        src: 'https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js',
         async: true,
       },
     ],
+    // 添加 Font Awesome 样式
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css',
+      },
+    ],
+    // 添加 Live2D 小部件脚本
+    [
+      'script',
+      {
+        src: 'https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js',
+        async: true,
+      },
+    ],
+    // 添加 Giscus 评论系统脚本
     [
       'script',
       {},
@@ -65,6 +83,7 @@ export default defineUserConfig({
         });
       `,
     ],
+    // 添加自定义样式
     [
       'style',
       {},
@@ -77,3 +96,4 @@ export default defineUserConfig({
     ],
   ],
 });
+
