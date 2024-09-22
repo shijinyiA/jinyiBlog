@@ -5,12 +5,16 @@ category:
   - 机器人
 tag:
   - Miao-Yunzai
+  - qsign
+  - ICQQ
 star: true
 ---
 
 # 目前可用于ICQQ协议的签名API
 
 >添加地方:在config/bot.yaml里添加：
+
+## 可用性查询:[QsignAPI查询(本页签名地址)](https://shijinyia-uptime-kuma.hf.space/status/qsignapi)
 
 ======「9.0.55」======
 
@@ -67,3 +71,4 @@ ver: 9.0.90
 sign_api_addr: https://qsign.chahuyun.cn/?key=miraibbs
 ver: 9.0.90
 ```
+
