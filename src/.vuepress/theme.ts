@@ -54,41 +54,55 @@ export default hopeTheme({
 
   // 启用的插件
   plugins: {
-    blog: true,
+    // 在这里配置主题提供的插件
+
+    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
+    comment: {
+      provider: "Giscus",
+      repo: "shijinyiA/jinyiBlog",
+      repoId: "R_kgDOMuaHtw",
+      category: "Announcements",
+      categoryId: "DIC_kwDOMuaHt84CiSve",
+    },
+
     components: {
       components: ["Badge", "VPCard"],
     },
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      codetabs: true,
-      component: true,
-      demo: true,
-      figure: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-      mark: true,
-      plantuml: true,
-      spoiler: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      tasklist: true,
-      vPre: true,
-    },
+
+    blog: true, // 将博客插件放在这里，避免重复定义
   },
-});
+
+  // Markdown 增强插件配置
+  mdEnhance: {
+    align: true,
+    attrs: true,
+    codetabs: true,
+    component: true,
+    demo: true,
+    figure: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    mark: true,
+    plantuml: true,
+    spoiler: true,
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    sub: true,
+    sup: true,
+    tabs: true,
+    tasklist: true,
+    vPre: true,
+  },
+}); // 移除了分号，并且保持对象结束后的闭合括号
