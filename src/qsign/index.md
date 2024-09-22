@@ -8,6 +8,7 @@ tag:
   - qsign
   - ICQQ
 star: true
+permalink: /qsign
 ---
 
 # 目前可用于ICQQ协议的签名API
