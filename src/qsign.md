@@ -15,10 +15,17 @@ permalink: /qsign
 
 >添加地方:在config/bot.yaml里添加：
 
-## 可用性查询:[1.QsignAPI查询(本页签名地址)](https://shijinyia-uptime-kuma.hf.space/status/qsignapi)
+## 可用性查询:
+
+[1.QsignAPI查询](https://shijinyia-uptime-kuma.hf.space/status/qsignapi)
 
 
 [2.QsignAPI查询](https://status.jinyi.icu)
+
+
+======「qsign.icu」======
+
+[寒暄签名](https://qsign.icu)
 
 
 ======「9.0.55」======
