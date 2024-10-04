@@ -32,7 +32,7 @@ export default hopeTheme({
   // 博客相关
   blog: {
     description: "二次元游戏爱好者，喜欢FPS",
-    intro: "/intro.html",
+    intro: "/about",
     medias: {
       BiliBili: "https://space.bilibili.com/483398190",
       GitHub: "https://github.com/shijinyiA",
