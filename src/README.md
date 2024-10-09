@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 锦衣的博客
 heroImage: false
-bgImage: https://dl3.img.timecdn.cn/2024/09/14/1.jpg
+bgImage: https://dl3.img.timecdn.cn/2024/10/05/QQ20241005-124841.png
 bgImageStyle:
   background-color: rgba(255, 255, 255, 0.6)
   background-position: center

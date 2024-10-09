@@ -17,11 +17,7 @@ permalink: /qsign
 
 ## 可用性查询:
 
-[1.QsignAPI查询](https://shijinyia-uptime-kuma.hf.space/status/qsignapi)
-
-
-[2.QsignAPI查询](https://status.jinyi.icu)
-
+[QsignAPI查询](https://shijinyia-uptime-kuma.hf.space/status/qsignapi)
 
 ======「qsign.icu」======
 
