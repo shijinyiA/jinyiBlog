@@ -58,42 +58,6 @@ export default defineUserConfig({
         async: true,
       },
     ],
-    // 添加 Giscus 评论系统脚本
-    [
-      'script',
-      {},
-      `
-        document.addEventListener('DOMContentLoaded', function() {
-          const giscusScript = document.createElement('script');
-          giscusScript.src = 'https://giscus.app/client.js';
-          giscusScript.async = true;
-          giscusScript.crossOrigin = 'anonymous';
-          giscusScript.setAttribute('data-repo', 'shijinyiA/jinyiBlog');
-          giscusScript.setAttribute('data-repo-id', 'R_kgDOMuaHtw');
-          giscusScript.setAttribute('data-category', 'General');
-          giscusScript.setAttribute('data-category-id', 'DIC_kwDOMuaHt84CiSvf');
-          giscusScript.setAttribute('data-mapping', 'pathname');
-          giscusScript.setAttribute('data-strict', '0');
-          giscusScript.setAttribute('data-reactions-enabled', '1');
-          giscusScript.setAttribute('data-emit-metadata', '0');
-          giscusScript.setAttribute('data-input-position', 'bottom');
-          giscusScript.setAttribute('data-theme', 'preferred_color_scheme');
-          giscusScript.setAttribute('data-lang', 'zh-CN');
-          document.getElementById('giscus-container').appendChild(giscusScript);
-        });
-      `,
-    ],
-    // 添加自定义样式
-    [
-      'style',
-      {},
-      `
-        /* CSS 来隐藏主页上的文章内容 */
-        .home .post-preview .post-content {
-          display: none;
-        }
-      `,
-    ],
   ],
 });
 
