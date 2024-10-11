@@ -12,8 +12,8 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
   logo: "/assets/images/tx.jpg",
-  repo: "shijinyiA/jinyiBlog",
-  docsDir: "src",
+  repo: "shijinyiA/shijinyiA",
+  docsDir: "",
 
   // 导航栏
   navbar,
@@ -37,6 +37,7 @@ export default hopeTheme({
       BiliBili: "https://space.bilibili.com/483398190",
       GitHub: "https://github.com/shijinyiA",
       Steam: "https://steamcommunity.com/id/fengyuanwanyejinyi/",
+      QQ: "https://tenapi.cn/v2/qqcard?qq=3022056965",
     },
   },
 
@@ -48,9 +49,8 @@ export default hopeTheme({
   },
 
   // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页（帮助更改最好啦！！）",
-  },
+  metaLocales: {},
+     editLink: false,
 
   // 启用的插件
   plugins: {
@@ -66,7 +66,8 @@ export default hopeTheme({
     },
 
     components: {
-      components: ["Badge", "VPCard"],
+      // 在这里添加 SiteInfo 组件
+      components: ["SiteInfo"], 
     },
 
     blog: true, // 将博客插件放在这里，避免重复定义
@@ -105,4 +106,4 @@ export default hopeTheme({
     tasklist: true,
     vPre: true,
   },
-}); // 移除了分号，并且保持对象结束后的闭合括号
+});

@@ -21,8 +21,7 @@ permalink: /qsign
 
 ======「qsign.icu」======
 
-[寒暄签名](https://qsign.icu)
-
+[寒暄签名--前往网址](https://qsign.icu)
 
 ======「9.0.55」======
 

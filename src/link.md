@@ -7,7 +7,24 @@ permalink: /link
 
 # 友情链接
 
+<SiteInfo
+  name="白狐的博客"
+  url="https://www.arcticfox.top"
+  logo="https://www.arcticfox.top/avatar.jpg"
+  preview="https://t.mwm.moe/pc"
+/>
 
-- <img src="https://www.arcticfox.top/avatar.jpg" width="20" style="vertical-align: middle;"/>[白狐的小窝](https://www.arcticfox.top/)    热爱，所以行动；坚持，所以成功。
+<SiteInfo
+  name="Yunzaibot-cn"
+  url="https://yunzaibot.cn"
+  logo="/assets/images/yunzaibot-zr.jpg"
+  preview="https://api.dujin.org/pic/yuanshen/"
+/>
 
-- <img src="https://blog.guole.fun/img/gl.jpg" width="20" style="vertical-align: middle;"/> [Guo Le's Blog](https://blog.guole.fun/)   生命是独立是自由是爱与和平
+<SiteInfo
+  name="ZLMX"
+  url="https://yunzai-bot.cn"
+  logo="/assets/images/yunzai-bot.jpg"
+  preview="https://t.mwm.moe/fj"
+/>
+
