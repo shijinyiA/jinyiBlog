@@ -21,7 +21,11 @@ permalink: /qsign
 
 ======「qsign.icu」======
 
-[寒暄签名--前往网址](https://qsign.icu)
+<SiteInfo
+  name="寒暄签名"
+  url="https://qsign.icu"
+  preview="https://img.paulzzh.com/touhou/random"
+/>
 
 ======「9.0.55」======
 
