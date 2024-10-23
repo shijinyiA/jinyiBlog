@@ -21,6 +21,8 @@ permalink: /qsign
 
 ======「qsign.icu」======
 
+**推荐**
+
 <SiteInfo
   name="寒暄签名"
   url="https://qsign.icu"
