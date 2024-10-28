@@ -11,7 +11,7 @@ export default hopeTheme({
   },
 
   iconAssets: "fontawesome-with-brands",
-  logo: "/assets/images/tx.jpg",
+  logo: "http://q2.qlogo.cn/headimg_dl?dst_uin=3022056965&spec=100",
   repo: "shijinyiA/shijinyiA",
   docsDir: "",
 
