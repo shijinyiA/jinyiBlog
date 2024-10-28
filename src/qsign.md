@@ -14,11 +14,6 @@ permalink: /qsign
 # **目前可用于ICQQ协议的签名API**
 >添加地方:在config/bot.yaml里添加：
 
-
-## 可用性查询:
-
-[QsignAPI查询-本页](https://shijinyia-uptime-kuma.hf.space/status/qsignapi)
-
 ======「qsign.icu」======
 
 **推荐**
