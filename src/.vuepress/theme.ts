@@ -24,7 +24,7 @@ export default hopeTheme({
   // 页脚
   footer: `
     <div>
-      <a href="https://icp.gov.moe/?keyword=20240172" target="_blank">萌ICP备20240172号</a><a href="https://ipw.cn/ssl/?site=ysjinyi.com" title="本站支持SSL安全访问" target='_blank'><img style='display:inline-block;vertical-align:middle' alt="本站支持SSL安全访问" src="https://static.ipw.cn/icon/ssl-s4.svg"></a>
+      <img src="/assets/images/icp.png"style="width: 16px; vertical-align: middle; margin-left: 4px;" /><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093216号-4</a>由岩王帝君保留解释权所有
     </div>
   `,
   displayFooter: true,

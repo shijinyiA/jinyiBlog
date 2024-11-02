@@ -28,9 +28,6 @@ export default defineUserConfig({
       filter: ({ frontmatter }) => frontmatter.category === "posts",
     },
     footer: `
-      <div>
-        <a href="https://icp.gov.moe/?keyword=20240172" target="_blank">萌ICP备20240172号</a>
-      </div>
     `,
   },
   head: [
