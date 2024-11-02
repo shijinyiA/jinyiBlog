@@ -18,7 +18,7 @@ permalink: /link
   name="Yunzaibot-cn"
   url="https://yunzaibot.cn"
   logo="/assets/images/yunzaibot-zr.jpg"
-  preview="https://api.dujin.org/pic/yuanshen/"
+  preview="https://www.loliapi.com/acg/pc/"
 />
 
 <SiteInfo
