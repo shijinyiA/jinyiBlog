@@ -22,7 +22,7 @@ export default [
   {
     text: "网站状态",
     icon: "laptop-code",  
-    link: "https://status.jinyi.icu",
+    link: "https://www.jinyi.icu",
   },
   // 可以继续添加更多的导航项目
 ];
