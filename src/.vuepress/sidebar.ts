@@ -3,16 +3,17 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/": [
     "",
-
     {
-      text: "文章",
+      text: "Markdown教程",
       icon: "book",
-      prefix: "文章/",
-      children: "structure",
+      prefix: "/",
+      children: [
+        "md",   
+        "mdnext" 
+      ],
     },
-
-    
     "bz",
     "about",
   ],
 });
+

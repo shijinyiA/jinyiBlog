@@ -27,8 +27,7 @@ export default defineUserConfig({
     blog: {
       filter: ({ frontmatter }) => frontmatter.category === "posts",
     },
-    footer: `
-    `,
+    footer: ``,
   },
   head: [
     // 添加 jQuery 脚本
@@ -55,5 +54,14 @@ export default defineUserConfig({
         async: true,
       },
     ],
+    // 引入 base.scss 文件
+    [
+      'link',
+      {
+        rel: 'stylesheet/scss',
+        href: '/.vuepress/styles/base.css', // 确保这个路径正确
+      },
+    ],
   ],
 });
+
