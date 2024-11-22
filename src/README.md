@@ -7,7 +7,7 @@ heroImage: false
 bgImage: https://t.mwm.moe/pc
 heroText: 锦衣Blog
 heroFullScreen: true
-tagline: 海内存知己,天涯诺比邻.
+tagline: 生活总要有裂缝，阳光才能照进来。
 taglineStyle:
   color: black
 ---
