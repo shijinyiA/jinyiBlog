@@ -20,6 +20,11 @@ export default [
     link: "/about",
   },
   {
+    text: "主页",
+    icon: "home",  
+    link: "https://zy.ysjinyi.com",
+  },
+  {
     text: "网站状态",
     icon: "laptop-code",  
     link: "https://www.jinyi.icu",
