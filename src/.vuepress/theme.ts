@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://jinyi.icu",
 
   author: {
-    name: "锦衣",
+    name: "",
     url: "https://github.com/shijinyiA/jinyiBlog",
   },
 
@@ -21,16 +21,18 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
-  // 页脚
-  footer: `
+// 自定义页脚
+ footer: `
     <div>
-      <img src="/assets/images/icp.png"style="width: 16px; vertical-align: middle; margin-left: 4px;" /><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093216号-4</a>由岩王帝君保留解释权所有
+      <span>Copyright © 2024-至今 锦衣 版权所有&岩王帝君 保留一切解释权利</span><br>
+      <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">蜀ICP备2024093216号-4</a>
     </div>
   `,
-  displayFooter: true,
+  displayFooter: true, 
 
   // 博客相关
   blog: {
+    name: "锦衣",
     description: "二次元游戏爱好者，喜欢FPS",
     intro: "/about",
     medias: {
@@ -50,13 +52,11 @@ export default hopeTheme({
 
   // 多语言配置
   metaLocales: {},
-     editLink: false,
+  editLink: false,
 
   // 启用的插件
   plugins: {
-    // 在这里配置主题提供的插件
-
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
+    // 评论插件
     comment: {
       provider: "Giscus",
       repo: "shijinyiA/jinyiBlog",
@@ -65,12 +65,8 @@ export default hopeTheme({
       categoryId: "DIC_kwDOMuaHt84CiSve",
     },
 
-    components: {
-      // 在这里添加 SiteInfo 组件
-      components: ["SiteInfo"], 
-    },
-
-    blog: true, // 将博客插件放在这里，避免重复定义
+    // 博客插件
+    blog: true,
   },
 
   // Markdown 增强插件配置

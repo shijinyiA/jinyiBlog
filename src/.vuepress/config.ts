@@ -12,11 +12,11 @@ export default defineUserConfig({
   plugins: [
     // Umami Analytics 插件配置
     umamiAnalyticsPlugin({
-      id: "3f15583b-b3bd-4810-805a-609a884c634a",  
-      link: "https://umami-beta-lac.vercel.app/script.js",  
+      id: "3f15583b-b3bd-4810-805a-609a884c634a",
+      link: "https://umami-beta-lac.vercel.app/script.js",
       autoTrack: true,
       cache: true,
-      hostUrl: 'https://umami-beta-lac.vercel.app',
+      hostUrl: "https://umami-beta-lac.vercel.app",
     }),
 
     // 搜索插件
@@ -38,7 +38,6 @@ export default defineUserConfig({
     blog: {
       filter: ({ frontmatter }) => frontmatter.category === "posts",
     },
-    footer: ``,
   },
   head: [
     // 添加 jQuery 脚本
@@ -75,6 +74,7 @@ export default defineUserConfig({
     ],
   ],
 });
+
 
 
 
