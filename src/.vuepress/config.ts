@@ -10,10 +10,13 @@ export default defineUserConfig({
   description: "锦衣小窝",
   theme,
   plugins: [
-    // Umami Analytics 插件
+    // Umami Analytics 插件配置
     umamiAnalyticsPlugin({
-      trackerUrl: "https://umami-t3sl.vercel.app/script.js", // Umami 跟踪脚本地址
-      websiteId: "b87b08c8-683b-4775-a8f3-4c72c0f4879f",      // Umami 网站 ID
+      id: "3f15583b-b3bd-4810-805a-609a884c634a",  
+      link: "https://umami-beta-lac.vercel.app/script.js",  
+      autoTrack: true,
+      cache: true,
+      hostUrl: 'https://umami-beta-lac.vercel.app',
     }),
 
     // 搜索插件
