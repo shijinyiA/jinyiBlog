@@ -25,6 +25,21 @@ titles:
 
 ## **联系方式：**
 
-1. [QQ号](https://tenapi.cn/v2/qqcard?qq=3022056965)
+<SiteInfo
+  name="QQ联系我"
+  url="https://tenapi.cn/v2/qqcard?qq=3022056965"
+  preview="http://www.98qy.com/sjbz/api.php"
+/>
 
-2. [邮箱](mailto:jinyi@jinyi.icu)
+<SiteInfo
+  name="邮箱联系"
+  url="mailto:jinyi@jinyi.icu"
+  preview="https://imgapi.xl0408.top/index.php"
+/>
+
+<SiteInfo
+  name="Tg双向Bot联系"
+  url="https://t.me/jinyiaa"
+  preview="https://api.mtyqx.cn/tapi/random.php"
+/>
+

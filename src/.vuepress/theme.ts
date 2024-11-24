@@ -21,14 +21,14 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
-// 自定义页脚
- footer: `
+  // 自定义页脚
+  footer: `
     <div>
       <span>Copyright © 2024-至今 锦衣 版权所有&岩王帝君 保留一切解释权利</span><br>
       <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">蜀ICP备2024093216号-4</a>
     </div>
   `,
-  displayFooter: true, 
+  displayFooter: true,
 
   // 博客相关
   blog: {
@@ -67,6 +67,13 @@ export default hopeTheme({
 
     // 博客插件
     blog: true,
+
+    // 启用 SiteInfo 组件
+    components: {
+      components: [
+        "SiteInfo", // 启用 SiteInfo 组件
+      ],
+    },
   },
 
   // Markdown 增强插件配置
