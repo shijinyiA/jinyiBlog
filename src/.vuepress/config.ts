@@ -33,6 +33,22 @@ export default defineUserConfig({
         },
       ],
     }),
+
+    // Meting 插件
+    [
+      "meting",
+      {
+        meting: {
+          server: "netease", // 使用的音乐平台
+          type: "playlist", // 类型：歌单
+          mid: "3778678", // 替换为您的歌单 ID
+        },
+        aplayer: {
+          lrcType: 3, // 歌词模式
+        },
+        defaultCover: "https://nyakku.moe/avatar.jpg", // 默认封面图片
+      },
+    ],
   ],
   themeConfig: {
     blog: {
@@ -74,6 +90,7 @@ export default defineUserConfig({
     ],
   ],
 });
+
 
 
 

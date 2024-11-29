@@ -58,11 +58,8 @@ export default hopeTheme({
   plugins: {
     // 评论插件
     comment: {
-      provider: "Giscus",
-      repo: "shijinyiA/jinyiBlog",
-      repoId: "R_kgDOMuaHtw",
-      category: "Announcements",
-      categoryId: "DIC_kwDOMuaHt84CiSve",
+      provider: "Waline",
+      serverURL: "https://pl.ysjinyi.com/", 
     },
 
     // 博客插件

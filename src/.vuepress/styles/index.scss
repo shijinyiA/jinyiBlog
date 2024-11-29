@@ -1,5 +1,18 @@
 @import "//at.alicdn.com/t/c/font_4685062_iuvdju9y0y.css";
+// 修改导航栏样式
+.navbar {
+  background-color: #1e90ff;
+  a {
+    color: #fff !important;
+  }
+}
 
+// 自定义代码块样式
+.code-block {
+  background-color: #2d2d2d !important;
+  color: #f8f8f2;
+  border-radius: 5px;
+}
 
 
 
