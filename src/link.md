@@ -21,10 +21,3 @@ permalink: /link
   preview="https://www.loliapi.com/acg/pc/"
 />
 
-<SiteInfo
-  name="ZLMX"
-  url="https://yunzai-bot.cn"
-  logo="/assets/images/yunzai-bot.jpg"
-  preview="https://t.mwm.moe/fj"
-/>
-
