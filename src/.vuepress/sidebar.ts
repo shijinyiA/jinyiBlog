@@ -10,11 +10,11 @@ export default sidebar({
       children: [
         "md",   
         "mdnext" 
-        "shell"
       ],
     },
     "bz",
     "about",
+    "shell",
   ],
 });
 
