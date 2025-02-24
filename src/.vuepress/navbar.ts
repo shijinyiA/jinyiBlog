@@ -1,7 +1,7 @@
 export default [
   {
     text: "锦衣的博客",
-    icon: "home",  // 将 home 作为字符串引用
+    icon: "home",  
     link: "/",
   },
   {
@@ -25,9 +25,9 @@ export default [
     link: "https://zy.ysjinyi.com",
   },
   {
-    text: "网站状态",
+    text: "芙芙云-服务器低价上云",
     icon: "laptop-code",  
-    link: "https://www.jinyi.icu",
+    link: "https://fufuidc.cn",
   },
   // 可以继续添加更多的导航项目
 ];
