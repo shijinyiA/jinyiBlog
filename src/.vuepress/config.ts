@@ -13,10 +13,10 @@ export default defineUserConfig({
     // Umami Analytics 插件配置
     umamiAnalyticsPlugin({
       id: "3f15583b-b3bd-4810-805a-609a884c634a",
-      link: "https://umami-beta-lac.vercel.app/script.js",
+      link: "https://status.ysjinyi.com/script.js",
       autoTrack: true,
       cache: true,
-      hostUrl: "https://umami-beta-lac.vercel.app",
+      hostUrl: "https://status.ysjinyi.com",
     }),
 
     // 搜索插件
