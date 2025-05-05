@@ -24,7 +24,7 @@ export default hopeTheme({
   // 自定义页脚
   footer: `
     <div>
-      <span>Copyright © 2024-至今 锦衣 版权所有&岩王帝君 保留一切解释权利</span><br>
+      <span>Copyright © 2024-至今 锦衣 保留一切解释权利</span><br>
       <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">蜀ICP备2024093216号-4</a>
     </div>
   `,
