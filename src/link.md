@@ -8,16 +8,24 @@ permalink: /link
 # 友情链接
 
 <SiteInfo
-  name="白狐的博客"
-  url="https://www.arcticfox.top"
-  logo="https://www.arcticfox.top/avatar.jpg"
-  preview="https://t.mwm.moe/pc"
+  name="织语文档"
+  url="https://docs.loomi.icu/"
+  logo=""
+  preview="/assets/images/yunzai-bot.jpg"
 />
 
 <SiteInfo
-  name="Yunzaibot-cn"
-  url="https://yunzaibot.cn"
-  logo="/assets/images/yunzaibot-zr.jpg"
-  preview="https://www.loliapi.com/acg/pc/"
+  name="芙芙云-助力低价上云"
+  url="https://fufuidc.com/"
+  logo=""
+  preview="/assets/images/yunzaibot-zr.jpg"
 />
+
+<SiteInfo
+  name="云溪Blog"
+  url="https://yxyos.cn"
+  logo="https://yxyos.cn/upload/favicon.ico"
+  preview="/assets/images/yx.jpg"
+/>
+
 

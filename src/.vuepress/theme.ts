@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://jinyi.icu",
 
   author: {
-    name: "",
+    name: "锦衣",
     url: "https://github.com/shijinyiA/jinyiBlog",
   },
 
@@ -24,7 +24,6 @@ export default hopeTheme({
   // 自定义页脚
   footer: `
     <div>
-      <span>Copyright © 2024-至今 锦衣 保留一切解释权利</span><br>
     </div>
   `,
   displayFooter: true,

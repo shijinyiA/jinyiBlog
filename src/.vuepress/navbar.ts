@@ -10,11 +10,6 @@ export default [
     link: "/link",
   },
   {
-    text: "壁纸",
-    icon: "book",  
-    link: "/bz",
-  },
-  {
     text: "关于作者",
     icon: "circle-info",  
     link: "/about",
